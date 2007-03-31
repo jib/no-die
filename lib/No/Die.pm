@@ -142,16 +142,17 @@ Apparently some people forget this: L<Carp::croak> and L<Carp::confess>
 also use C<die()> under the hood, so they'll be affected as well by
 the use of L<No::Die>.
 
+=head1 BUG REPORTS
+
+Please report bugs or other issues to E<lt>bug-no-die@rt.cpan.org<gt>.
+
 =head1 AUTHOR
 
-Jos Boumans L<kane@cpan.org>
+This module by Jos Boumans E<lt>kane@cpan.orgE<gt>.
 
 =head1 COPYRIGHT
 
-This module is
-copyright (c) 2003 Jos Boumans E<lt>kane@cpan.orgE<gt>.
-All rights reserved.
+This library is free software; you may redistribute and/or modify it 
+under the same terms as Perl itself.
 
-This library is free software;
-you may redistribute and/or modify it under the same
-terms as Perl itself.
+=cut
